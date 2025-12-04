@@ -22,6 +22,8 @@
     "proxy-validator": "node proxyServiceValidator.js",
     "workflow-test": "node run-command.mjs workflow",
     "deployment": "npm install && npm run build && node backend.js"
+    "postinstall": "cd lib/rammerhead && npm install dotenv-flow",
+
   },
   "keywords": [
     "proxy",
